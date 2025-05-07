@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="login">
+        <div class="inner">
+          <h1>Register Yourself</h1>
+          <p>
+            Please enter your email and password to <br />
+            register your account.
+          </p>
+          <div class="input_div">
+            <input type="tel" placeholder="+91222222222" required  class="emails"/>
+            <input type="password" placeholder="*********" class="emails"/>
+            <input type="password" placeholder="*********" class="emails"/>
+          </div>
+          <a href="./otp3.html"><button class="btn">Register</button></a>
+        </div>
+      </div>
+
+      <div class="text_dev">
+        <div class="img"><img src="./assets/OTP 1.png" /></div>
+        <h1>OTP Verification</h1>
+        <p>Enter the OTP sent to <span class="bold">+91 987987333</span></p>
+        <div class="otp-inputs">
+          <input type="text" maxlength="1" class="otp"/>
+          <input type="text" maxlength="1" class="otp"/>
+          <input type="text" maxlength="1" class="otp"/>
+          <input type="text" maxlength="1" class="otp"/>
+        </div>
+        <p class="resend">
+          Didn't receive the OTP? <span href="#">Resend OTP</span>
+        </p>
+        <a href="./CheckEmail.html"><button class="btn">Verify</button></a>
+      </div>
+    </div>
+  </body>
+</html>

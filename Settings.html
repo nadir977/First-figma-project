@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <main class="main_dashboard">
+      <div class="sidebar">
+        <div class="sid_men">
+          <header>
+            <div class="dash_img">
+              <img src="./assets/Image.png" />
+              <div class="dash_name">
+                <h1>Tanzir Rahman</h1>
+                <p>View profile</p>
+              </div>
+            </div>
+            <i class="bi bi-three-dots-vertical dots"></i>
+          </header>
+          <div class="dash_btn">
+            <a href="./Desktop.html"
+              ><button class="secend_btn">
+                <i class="bi bi-menu-button-wide wallt"></i> Overview
+              </button></a
+            >
+            <a href="./Payments.html"
+              ><button class="secend_btn">
+                <i class="bi bi-wallet2 wallt2"></i> Payments
+              </button></a
+            >
+            <a href="./Transactions.html"
+              ><button class="secend_btn">
+                <i class="bi bi-currency-dollar wallt2"></i> Transactions
+              </button></a
+            >
+            <a href="./Swap.html"
+              ><button class="secend_btn">
+                <i class="bi bi-arrow-left-right wallt2"></i> Swap
+              </button></a
+            >
+            <a href="./Notifications1.html"
+              ><button class="secend_btn">
+                <i class="bi bi-bell wallt2"></i> Notifications
+              </button></a
+            >
+            <a href="./Account_1.html"
+              ><button class="secend_btn">
+                <i class="bi bi-person wallt2"></i>Account
+              </button></a
+            >
+            <button class="main_btn">
+              <i class="bi bi-gear wallt2"></i> Settings
+            </button>
+          </div>
+        </div>
+
+        <button class="secend_btn">
+          <i class="bi bi-arrow-bar-right wallt2"></i>Logout
+        </button>
+      </div>
+      <section class="dash_sec">
+        <div class="nav_bar_payments">
+          <div><h1>Settings</h1></div>
+          <div class="nav_bel">
+            <div class="nav_div">
+              <input type="text" placeholder="Search for anything...." />
+              <i class="bi bi-search search"></i>
+            </div>
+            <div><i class="bi bi-bell bell"></i></div>
+          </div>
+        </div>
+        <div class="main_content">
+          <div class="main_option">
+            <div class="container_tabs">
+              <div class="tab-wrap">
+                <input type="radio" id="tab1" name="tabGroup1" class="tab" />
+                <label for="tab1">Security</label>
+
+                <input type="radio" id="tab2" name="tabGroup1" class="tab" />
+                <label for="tab2">Configure</label>
+
+                <input type="radio" id="tab3" name="tabGroup1" class="tab" />
+                <label for="tab3">Notifications</label>
+
+                <div class="tab__content">
+                  <div class="Account_main">
+                    <div class="change">
+                      <h1>Change Password</h1>
+                      <p>
+                        You can always change your password for security reasons
+                        or reset your password in case you forgot it.
+                      </p>
+                    </div>
+                    <div class="main_data">
+                      <div class="setting_input">
+                        <p>Current Password</p>
+                        <input
+                          type="number"
+                          placeholder="Current Password"
+                          required
+                        />
+                      </div>
+                      <div class="setting_input">
+                        <p>New Password</p>
+                        <input
+                          type="number"
+                          placeholder="New Password"
+                          required
+                        />
+                      </div>
+                      <div class="setting_input">
+                        <p>Confirm New Password</p>
+                        <input
+                          type="number"
+                          placeholder="Confirm New Password"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="changes_btn">
+                      <button>Save Changes</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab__content">
+                  <div class="Account_main">
+                    <div class="change">
+                      <h1>Configure Accounts</h1>
+                      <p>
+                        Configure your accounts that you use on the site to
+                        facilitate all your purchasing, exchange and reloading
+                        operations.
+                      </p>
+                    </div>
+
+                    <div class="E_text">
+                      <p>E-Wallets</p>
+                    </div>
+                    <div class="main_data">
+                      <div class="setting_input">
+                        <p>Preferred Bitcoin Address</p>
+                        <input
+                          type="text"
+                          placeholder="Current Password"
+                          required
+                        />
+                      </div>
+                      <div class="setting_input">
+                        <p>Preferred Perfect Money account</p>
+                        <input
+                          type="text"
+                          placeholder="Current Password"
+                          required
+                        />
+                      </div>
+                      <div class="setting_input">
+                        <p>Preferred Payeer Account</p>
+                        <input
+                          type="text"
+                          placeholder="Current Password"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="E_text">
+                      <p>Mobile Money</p>
+                    </div>
+
+                    <div class="cuntry_select">
+                      <p>Preferred Mobile Money</p>
+                      <select>
+                        <option value="us" selected>🇺🇸 +225</option>
+                        <option value="es">🇪🇸 Spain</option>
+                        <option value="fr">🇫🇷 France</option>
+                        <option value="de">🇩🇪 Germany</option>
+                        <option value="pk">🇵🇰 Pakistan</option>
+                      </select>
+                    </div>
+
+                    <div class="E_text">
+                      <p>Visa Cards</p>
+                    </div>
+
+                    <div class="my_card">
+                      <div class="setting_input">
+                        <p>Preferred Bitcoin Address</p>
+                        <input
+                          type="text"
+                          placeholder="Current Password"
+                          required
+                        />
+                      </div>
+                      <div class="setting_input">
+                        <p>Preferred Perfect Money account</p>
+                        <input
+                          type="text"
+                          placeholder="Current Password"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="changes_btn">
+                      <button>Save Changes</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab__content">
+                  <div class="Account_main">
+                    <div class="main_togal">
+                      <div class="togal_btn">
+                        <p>Announcements</p>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+
+                      <div class="togal_btn">
+                        <p>Special Offers</p>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+
+                      <div class="togal_btn">
+                        <p>Request Payment</p>
+                        <label class="switch">
+                          <input type="checkbox" checked />
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>

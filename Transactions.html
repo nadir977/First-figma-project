@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transactions</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <main class="main_dashboard">
+      <div class="sidebar">
+        <div class="sid_men">
+          <header>
+            <div class="dash_img">
+              <img src="./assets/Image.png" />
+              <div class="dash_name">
+                <h1>Tanzir Rahman</h1>
+                <p>View profile</p>
+              </div>
+            </div>
+            <i class="bi bi-three-dots-vertical dots"></i>
+          </header>
+          <div class="dash_btn">
+            <a href="./Desktop.html"
+              ><button class="secend_btn">
+                <i class="bi bi-menu-button-wide wallt"></i> Overview
+              </button></a
+            >
+            <a href="./Payments.html"
+              ><button class="secend_btn">
+                <i class="bi bi-wallet2 wallt2"></i> Payments
+              </button></a
+            >
+            <button class="main_btn">
+              <i class="bi bi-currency-dollar wallt2"></i> Transactions
+            </button>
+            <a href="./Swap.html"
+              ><button class="secend_btn">
+                <i class="bi bi-arrow-left-right wallt2"></i> Swap
+              </button></a
+            >
+            <a href="./Notifications1.html"
+              ><button class="secend_btn">
+                <i class="bi bi-bell wallt2"></i> Notifications
+              </button></a
+            >
+            <a href="./Account_1.html"
+              ><button class="secend_btn">
+                <i class="bi bi-person wallt2"></i>Account
+              </button></a
+            >
+            <a href="./Settings.html"
+              ><button class="secend_btn">
+                <i class="bi bi-gear wallt2"></i> Settings
+              </button></a
+            >
+          </div>
+        </div>
+
+        <button class="secend_btn">
+          <i class="bi bi-arrow-bar-right wallt2"></i>Logout
+        </button>
+      </div>
+      <section class="dash_sec">
+        <div class="nav_bar_payments">
+          <div><h1>Transactions</h1></div>
+          <div class="nav_bel">
+            <div class="nav_div">
+              <input type="text" placeholder="Search for anything...." />
+              <i class="bi bi-search search"></i>
+            </div>
+            <div><i class="bi bi-bell bell"></i></div>
+          </div>
+        </div>
+        <div class="main_content">
+          <div class="Transactions_div">
+            <div class="actions_2">
+              <div class="date_main">
+                <div class="date_div">
+                  <select>
+                    <option>23 Nov 2021 - 21 Feb 2022</option>
+                  </select>
+                </div>
+                <div class="balnce_div">
+                  <select>
+                    <option>Balance</option>
+                  </select>
+                </div>
+                <div class="balnce_div">
+                  <select>
+                    <option>All Filters</option>
+                  </select>
+                </div>
+                <div class="clear_div">
+                  <button>Clear Filters</button>
+                </div>
+              </div>
+            </div>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Name/Business</th>
+                  <th>Username</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Transaction Fee</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="status_in-progres">In Progress</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="status cancelled">Cancelled</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">In Progress</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="status pending">Pending</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">In Progress</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+                <tr>
+                  <td>
+                    Bangkok Bank<br /><small>Withdraw to bank account</small>
+                  </td>
+                  <td><span class="Username">Shijrahassan@</span></td>
+                  <td>03:00 PM<br /><small>10 Mar 2022</small></td>
+                  <td><span class="in-progress">Completed</span></td>
+                  <td>-$20</td>
+                  <td>-$520<br /><small>$3.0</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
